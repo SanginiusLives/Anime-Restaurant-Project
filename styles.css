@@ -200,7 +200,7 @@ object-fit: cover;
 }
 
 #contacthead {
-     background-image: url('assets/contact.jpg');
+     background-image: url('assets/events.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -209,7 +209,7 @@ object-fit: cover;
 #abouthead {
     background-image: url('assets/about.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: top center;
     background-repeat: no-repeat;
 }
 
@@ -258,6 +258,18 @@ object-fit: cover;
 
 .divider h3, .divider p {
     color: #fff;
+}
+
+#menuhead {
+    background-image: url("assets/food-drink.jpg");
+    background-size: cover;
+
+}
+
+#menuhead p {
+    color: #fff !important;
+    z-index: 10;
+    position: relative;
 }
 
 /* EVENTS PAGE */
